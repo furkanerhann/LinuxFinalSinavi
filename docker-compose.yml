@@ -10,7 +10,7 @@ services:
       - MARIADB_HOST=mariadb
       - MARIADB_PORT_NUMBER=3306
       - DRUPAL_DATABASE_USER=YAM428
-      - DRUPAL_DATABASE_PASSWORD=YOUR_STUDENT_NUMBER
+      - DRUPAL_DATABASE_PASSWORD=030718024
       - DRUPAL_DATABASE_NAME=final
       - ALLOW_EMPTY_PASSWORD=yes
 
@@ -20,7 +20,7 @@ services:
       - mariadb_data:/bitnami/mariadb
     environment:
       - MARIADB_USER=YAM428
-      - MARIADB_PASSWORD=YOUR_STUDENT_NUMBER
+      - MARIADB_PASSWORD=030718024
       - MARIADB_DATABASE=final
       - ALLOW_EMPTY_PASSWORD=yes
 
